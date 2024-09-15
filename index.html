@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Solution</title>
+  <!-- font awsome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- daisyUIcdn -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+      .font-poppins{
+        font-family: "Poppins", sans-serif;
+      }
+  </style>
+</head>
+<body class="font-poppins">
+       <header class="lg:w-11/12 lg:mx-auto mt-1 p-2">
+            <!-- navbar -->
+             <nav class="p-2">
+                <div class="flex  items-center justify-between">
+                    <div>
+                        <img src="./images/logo2.png" alt="">
+                    </div>
+                    <div class="lg:flex items-center gap-6 lg:px-4 p-3 justify-center text-[#707070] hidden lg:pt-2 text-sm font-light">
+                        <p>Home</p>
+                        <p>Services <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        <p>Cases <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        <p>Blog <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                        <p>Contact Us <span><i class="fa-solid fa-chevron-right"></i></span></p>
+                    </div>
+                    <div class="btn px-5 py-2 bg-[#B68C5A] text-[#FFFFFF] hidden lg:flex">
+                        <button>Free Consultation</button>
+                    </div>
+                    <div class="lg:hidden flex">
+                        <span class=" font-semibold text-3xl"><i class="fa-solid fa-bars"></i></span>
+                    </div>
+                </div>
+             </nav>
+
+             <!-- banner section -->
+              <div class="h-[550px] flex items-center justify-center]
+              bg-no-repeat bg-cover mt-4 rounded-lg" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0.753),transparent), url('./images/banner.png')">
+                   <div class=" lg:w-[50%] mx-auto space-y-4">
+                    <h1 class="font-extrabold lg:text-5xl text-3xl text-center text-[#FFFFFF]">We Provide Effective <br> Legal Solutions</h1>
+                    <br>
+                    <p class="text-[#FFFFFF] text-center font-light ">
+                      We provide expert legal solutions, guiding you through every step to achieve optimal results with precision.</p>
+                      <br>
+                    <div class="text-center">
+                      <input type="text" placeholder="Search your services" class="order-none input input-bordered input-warning w-[70%]" />
+                      <button class="btn px-6 border-none bg-[#B68C5A] text-[#FFFFFF]">Search</button>
+                    </div>
+                   </div>
+              </div>
+       </header>
+       <main class="lg:w-11/12 lg:mx-auto mt-6 p-4">
+          <!-- practice area -->
+           <section class="lg:p-14">
+            <div class="lg:w-[50%] text-center mx-auto space-y-3">
+              <h1 class="text-[#414040] font-bold text-4xl">The Legal Practice Area</h1>
+              <br>
+              <p class="text-[#707070]  font-light text-sm">
+                Specialized Legal Services: Focused expertise across various practice areas to address your unique legal needs effectively.</p>
+             </div>
+             <!-- grid layout1 -->
+             <div class="lg:grid lg:grid-cols-3 mt-8 lg:w-[90%] mx-auto">
+                        <div class="space-y-3 lg:border-r lg:border-b p-12 text-center">
+                         <div class="flex justify-center"><img src="./images/business.png" alt=""></div>
+                         <br>
+                          <h1 class="text-[#414040] font-bold text-2xl">Business Law</h1>
+                          <br>
+                          <p class="text-[#707070] font-light text-sm">
+                            Expert Business Law services, offering strategic guidance to protect your interests and ensure compliance in all dealings.</p>
+                            <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                        </div>
+            
+                        <div class="space-y-3 p-12 lg:border-r lg:border-t lg:border-b text-center lg:bg-gradient-to-b from-[#cbcaca3a] ">
+                          <div class="flex justify-center"><img src="./images/criminal.png" alt=""></div>
+                          <br>
+                           <h1 class="text-[#414040] font-bold text-2xl">Criminal Law</h1>
+                           <br>
+                           <p class="text-[#707070] font-light text-sm">
+                            Skilled in criminal law, we offer aggressive defense and thorough legal strategies to safeguard your future.
+                            </p>
+                            <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                         </div>
+            
+                         <div class="space-y-3 lg:border-b p-12 text-center">
+                          <div class="flex justify-center"><img src="./images/child.png" alt=""></div>
+                          <br>
+                           <h1 class="text-[#414040] font-bold text-2xl">Child Support</h1>
+                           <br>
+                           <p class="text-[#707070] font-light text-sm"> Comprehensive child support services ensuring fair and timely arrangements to meet your child’s needs effectively.</p>
+                           <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                         </div>
+            
+             </div>
+             <!-- grid layout 2 -->
+             <div class="lg:grid lg:grid-cols-3 lg:w-[90%] mx-auto">
+                        <div class="space-y-3 lg:border-r p-12 text-center">
+                         <div class="flex justify-center"><img src="./images/education.png" alt=""></div>
+                         <br>
+                          <h1 class="text-[#414040] font-bold text-2xl">Education Law</h1>
+                          <br>
+                          <p class="text-[#707070] font-light text-sm"> Expert in Education Law: Navigating academic regulations and protecting rights for students, educators, and institutions.</p>
+                          <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                        </div>
+            
+                        <div class="space-y-3 lg:border-r p-12 text-center">
+                          <div class="flex justify-center"><img src="./images/divorce.png" alt=""></div>
+                          <br>
+                           <h1 class="text-[#414040] font-bold text-2xl">Divorce Law</h1>
+                           <br>
+                           <p class="text-[#707070] font-light text-sm">
+                            Divorce Law: Providing clear, compassionate legal advice to help you through every step of your separation process.</p>
+                            <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                         </div>
+            
+                         <div class="space-y-3 p-12  text-center">
+                          <div class="flex justify-center"><img src="./images/tax.png" alt=""></div>
+                          <br>
+                           <h1 class="text-[#414040] font-bold text-2xl">Tax Law</h1>
+                           <br>
+                           <p class="text-[#707070] font-light text-sm">
+                            Proficient in tax law, we navigate complex regulations to minimize liabilities and maximize your financial benefits</p>
+                            <br>
+                            <div class="w-[25px] h-[25px] bg-[#B68C5A] rounded-full mx-auto">
+                              <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                         </div>
+            
+             </div>
+           </section>
+
+           <!-- carousel -->
+            <section class="mt-8">
+                  <div class="text-center lg:w-[70%] w-[100%] mx-auto">
+                    <h1 class="font-semibold text-3xl">What Our Client Say</h1>
+                    <br>
+                    <p class="text-sm">Our clients praise our dedication and expertise, highlighting our commitment to achieving exceptional results and providing outstanding support throughout their cases.</p>
+                  </div> 
+                  <br><br>
+                  <div class="h-[400px] text-center rounded-xl" >
+                    <div class="carousel w-full h-full rounded-xl">
+                      <div id="slide1" class="carousel-item relative w-full">
+                        <img
+                          src="./images/slider-1.jpg"
+                          class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                          <a href="#slide1" class="btn btn-circle">❮</a>
+                          <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                      </div>
+                      <div id="slide2" class="carousel-item relative w-full">
+                        <img
+                          src="./images/slider-2.jpg"
+                          class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                          <a href="#slide2" class="btn btn-circle">❮</a>
+                          <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                      </div>
+                      <div id="slide3" class="carousel-item relative w-full">
+                        <img
+                          src="./images/slider-3.jpg"
+                          class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                          <a href="#slide3" class="btn btn-circle">❮</a>
+                          <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <!-- frequently asked questions -->
+             <section class="mt-8">
+                   <div class="text-center lg:w-[70%] w-[100%] mx-auto">
+                    <h1 class="font-semibold text-3xl">Frequently Asked Any Questions</h1>
+                    <br>
+                        <p class="text-sm lg:w-[80%] lg:mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                   </div>
+                   <br>
+                   <br>
+                <div class="lg:flex lg:items-center lg:h-[430px] justify-between px-[20px]">
+                  <!-- left -->
+                   <div class="lg:w-[50%]">
+                      <div>
+                        <div class="collapse bg-base-200">
+                          <input type="checkbox" />
+                          <div class="collapse-title text-xl font-medium flex justify-between">1. Are application fee waivers available?  <span>+</span></div>
+                          <div class="collapse-content px-[20px]">
+                            <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                          </div>
+                        </div>
+                      </div>
+                       <br>
+                      <div>
+                        <div class="collapse bg-base-200">
+                          <input type="checkbox" />
+                          <div class="collapse-title text-xl font-medium flex justify-between">2. Are application fee waivers available?  <span>+</span></div>
+                          <div class="collapse-content px-[20px]">
+                            <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                          </div>
+                        </div>
+                      </div>
+                       <br>
+                      <div>
+                        <div class="collapse bg-base-200">
+                          <input type="checkbox" />
+                          <div class="collapse-title text-xl font-medium flex justify-between">3. Are application fee waivers available?  <span>+</span></div>
+                          <div class="collapse-content px-[20px]">
+                            <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                          </div>
+                        </div>
+                      </div>
+                       <br>
+                      <div>
+                        <div class="collapse bg-base-200">
+                          <input type="checkbox" />
+                          <div class="collapse-title text-xl font-medium flex justify-between">4. Are application fee waivers available?  <span>+</span></div>
+                          <div class="collapse-content px-[20px]">
+                            <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                   <br>
+                   <br>
+                   <!-- right -->
+                    <div>
+                      <img class="w-[420px]" src="./images/faq.png" alt="">
+                    </div>
+
+                </div>   
+             </section>
+                  <br>
+                  <br>
+             <!-- contact with us  -->
+              <section class="mt-10">
+                <div class="text-center lg:w-[70%] w-[100%] mx-auto">
+                  <h1 class="font-semibold text-3xl">Contact With Us</h1>
+                  <br>
+                  <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+                  <!-- flex  -->
+                   <div class="lg:flex lg:justify-between mx-auto w-[90%] mt-8">
+                    <!-- left -->
+                         <div class="w-full lg:w-[45%]">
+                             <div class="lg:flex  bg-[#EBEBEB]">
+                                 <div class="lg:w-[50%] text-center lg:px-[30px] lg:py-[40px] px-[80px] py-[50px] lg:border-r  border-gray-400">
+                                <div class="flex justify-center"><img src="./images/location.png" alt=""></div>
+                                <h1>Address</h1>
+                                <p>A108 Adam Street,
+                                 New York, NY 535022</p>
+                                 </div>
+
+
+                                 <div class="lg:w-[50%] text-center lg:px-[40px] lg:py-[40px] px-[85px] py-[50px] lg:border-b  border-gray-400">
+                                 <div class="flex justify-center"><img src="./images/call.png" alt=""></div>
+                                <h1>Call Us</h1>
+                                 <p>+88 01750 00 00 00 <br>
+                                  +88 01750 00 00 00</p>
+                                 </div>
+                             </div>
+
+                              <div class="lg:flex  bg-[#EBEBEB]">
+                                      <div class="lg:w-[50%] text-center lg:px-[30px] lg:py-[40px] px-[80px] py-[50px] lg:border-t  border-gray-400">
+                                      <div class="flex justify-center"><img src="./images/email.png" alt=""></div>
+                                      <h1>Email Us</h1>
+                                      <p>info@gmail.com
+                                        info@gmail.com</p>
+                                       </div>
+        
+                                       <div class="lg:w-[50%] text-center lg:px-[30px] lg:py-[40px] px-[80px] py-[50px] lg:border-l  border-gray-400">
+                                       <div class="flex justify-center"><img src="./images/time.png" alt=""></div>
+                                       <h1>Working Hours</h1>
+                                       <p>Mon-Fri: 9AM to 5PM
+                                        Sunday: 9AM to 1 PM</p>
+                                       </div>
+                              </div>
+                         </div>
+
+                     <!-- right -->
+                      <div class="w-full lg:w-[48%] mt-8 lg:mt-0">
+                       <div>
+                           <div>
+                            <input
+                            type="text"
+                            placeholder="You can't touch this"
+                            class="input input-bordered w-full  bg-[#EBEBEB]"/>
+                           </div>  
+                           <br>  
+                          <div>
+                            <input
+                            type="text"
+                            placeholder="You can't touch this"
+                            class="input input-bordered w-full  bg-[#EBEBEB]"/>
+                          </div> 
+                          <br>
+                          <div>
+                            <input
+                                type="text"
+                                placeholder="You can't touch this"
+                                class="input input-bordered w-full  bg-[#EBEBEB]" />
+                          </div> 
+                          <br>
+                          <div>
+                            <textarea class="textarea w-full bg-[#EBEBEB]" placeholder="Your Message" rows="3" ></textarea>
+                          </div> 
+                          <br>
+                          <div>
+                            <button class="btn w-full text-white hover:bg-[#b68d5abe] bg-[#B68C5A]">Send Message</button>
+                          </div>
+                      </div>
+
+                   </div>
+
+              </section>
+       </main>
+      <footer class="p-10 border border-black mb-4 bg-black text-gray-300">
+        <section class="lg:w-11/12 lg:flex justify-center text-center lg:text-left border border-black gap-2 lg:mx-auto">
+          <div class="border border-black lg:w-[25%]">
+            <div class="flex justify-center lg:justify-start"><img src="./images/logo.png" alt=""></div>
+            <br>
+            <p class="text-sm font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </div>
+          <br>
+          <div class="border border-black lg:w-[20%] mt-6 lg:mt-0 lg:pl-4">
+            <h3 class="text-2xl font-bold text-gray-100">Usefull Link</h3>
+            <br>
+            <br>
+            <p class="text-sm font-light">Homes</p>
+            <br> 
+            <p class="text-sm font-light"> About Us</p>
+            <br> 
+            <p class="text-sm font-light"> Cases</p>
+            <br> 
+            <p class="text-sm font-light"> Blog</p>
+            <br> 
+            <p class="text-sm font-light"> Contact Us</p>
+          </div>
+          <br>
+          <div class="border border-black lg:w-[25%] mt-6 lg:mt-0 ">
+            <h3 class="text-2xl font-bold text-gray-100">Contact Now</h3>
+            <br>
+            <p class="text-sm font-light">555 4th 5t NW, Washington <br>
+               DC 20530, United States</p>
+            <br>
+            <p class="text-sm font-light">+88 01750 000 000 <br>
+              +88 01750 000 000</p>
+            <br>
+            <p class="text-sm font-light">info@gmail.com <br>
+              info@gmail.com</p>
+          </div>
+           <br>
+          <div class="border border-black lg:w-[30%] mt-6 lg:mt-0 ">
+            <h3 class="text-2xl font-bold text-gray-100">Subscribe</h3>
+            <br>
+            <p class="lg:w-[70%] text-sm font-light">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <br>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="input input-bordered join-item" />
+              <button class="btn  bg-[#B68C5A] join-item w-[60px] ">
+                <i class="fa-solid fa-angles-right -rotate-45 text-white"></i>
+              </button>
+            </div>
+          </div>
+
+        </section>
+       </footer> 
+
+</body>
+</html>
